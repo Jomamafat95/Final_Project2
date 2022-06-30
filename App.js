@@ -1,3 +1,4 @@
+import React from 'react';
 import { useState } from 'react';
 import { StyleSheet, View, FlatList, Button } from 'react-native';
 import { StatusBar } from 'expo-status-bar';
