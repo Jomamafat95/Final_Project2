@@ -73,9 +73,14 @@ const styles = StyleSheet.create({
   appContainer: {
     flex: 1,
     paddingTop: 50,
-    paddingHorizontal: 16,
+    paddingHorizontal: 16
   },
   goalsContainer: {
-    flex: 5,
+    flex: 6,
+    flexDirection: 'Column',
+    alignItems: 'center',
+    justifyContent: 'Flex-start',
+    padding: 15,
+    marginBottom: 10
   },
 });
